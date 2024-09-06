@@ -1,3 +1,16 @@
 <h1>App component</h1>
 
+<p>Message: {{ message }}</p>
+
+<p>{{ 2+2 }}</p>
+
+<p>{{ a+b }}</p>
+
+<p>{{ a > b ? a : b }}</p>
+
 <app-list-item></app-list-item>
+
+
+<h2>Kattintás számláló</h2>
+<button (click)="IncCounter()">Katt</button>
+<p>Kattintások száma: {{ counter }}</p>
